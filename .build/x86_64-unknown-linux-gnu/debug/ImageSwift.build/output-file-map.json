@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/primary.swiftdeps"
+  },
+  "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/Sources/ImageSwift/App.swift": {
+    "dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/App.d",
+    "object": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/App.swift.o",
+    "swiftmodule": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/App~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/App.swiftdeps",
+    "diagnostics": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/App.dia"
+  },
+  "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/Sources/ImageSwift/ImageEditorView.swift": {
+    "dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorView.d",
+    "object": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorView.swift.o",
+    "swiftmodule": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorView~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorView.swiftdeps",
+    "diagnostics": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorView.dia"
+  },
+  "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/Sources/ImageSwift/ImageEditorViewModel.swift": {
+    "dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorViewModel.d",
+    "object": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorViewModel.swift.o",
+    "swiftmodule": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorViewModel~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorViewModel.swiftdeps",
+    "diagnostics": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageEditorViewModel.dia"
+  },
+  "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/Sources/ImageSwift/ImageExporter.swift": {
+    "dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageExporter.d",
+    "object": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageExporter.swift.o",
+    "swiftmodule": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageExporter~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageExporter.swiftdeps",
+    "diagnostics": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageExporter.dia"
+  },
+  "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/Sources/ImageSwift/ImageResizer.swift": {
+    "dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageResizer.d",
+    "object": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageResizer.swift.o",
+    "swiftmodule": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageResizer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageResizer.swiftdeps",
+    "diagnostics": "/home/runner/work/ImageSwift/ImageSwift/okita-io/ImageSwift/.build/x86_64-unknown-linux-gnu/debug/ImageSwift.build/ImageResizer.dia"
+  }
+}
