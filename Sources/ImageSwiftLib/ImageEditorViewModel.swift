@@ -59,19 +59,24 @@ final class ImageEditorViewModel: ObservableObject {
         isProcessing = true
         errorMessage = nil
 
+        let format = selectedFormat
+        let resizer = self.resizer
+        let exporter = self.exporter
+        let context = self.context
+
         Task.detached(priority: .userInitiated) { [weak self] in
             guard let self else { return }
             do {
-                let resized = try self.resizer.resize(
+                let resized = try resizer.resize(
                     source,
                     width: CGFloat(targetWidth),
                     height: CGFloat(targetHeight)
                 )
-                guard let cgImage = self.context.createCGImage(resized, from: resized.extent) else {
+                guard let cgImage = context.createCGImage(resized, from: resized.extent) else {
                     await MainActor.run { self.errorMessage = "Failed to render image." }
                     return
                 }
-                try self.exporter.export(cgImage, to: url, format: self.selectedFormat)
+                try exporter.export(cgImage, to: url, format: format)
                 await MainActor.run { self.isProcessing = false }
             } catch {
                 await MainActor.run {

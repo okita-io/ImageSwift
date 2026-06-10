@@ -2,26 +2,36 @@
 import SwiftUI
 import UniformTypeIdentifiers
 
-struct ImageEditorView: View {
+public struct ImageEditorView: View {
 
     @StateObject private var viewModel = ImageEditorViewModel()
     @State private var isDroppingOver = false
 
-    var body: some View {
-        VStack(spacing: 16) {
-            dropZone
-            dimensionFields
-            formatPicker
-            exportButton
-            if let error = viewModel.errorMessage {
-                Text(error)
-                    .foregroundStyle(.red)
-                    .font(.caption)
-                    .multilineTextAlignment(.center)
+    public init() {}
+
+    public var body: some View {
+        HSplitView {
+            DirectoryBrowserView { url in
+                viewModel.load(from: url)
             }
+            .frame(minWidth: 200, idealWidth: 260, maxWidth: 450)
+            
+            VStack(spacing: 16) {
+                dropZone
+                dimensionFields
+                formatPicker
+                exportButton
+                if let error = viewModel.errorMessage {
+                    Text(error)
+                        .foregroundStyle(.red)
+                        .font(.caption)
+                        .multilineTextAlignment(.center)
+                }
+            }
+            .padding(20)
+            .frame(minWidth: 400, minHeight: 460)
         }
-        .padding(20)
-        .frame(minWidth: 400, minHeight: 460)
+        .frame(minWidth: 660, minHeight: 480)
     }
 
     // MARK: - Subviews
@@ -115,5 +125,8 @@ struct ImageEditorView: View {
         }
         return true
     }
+}
+#Preview{
+    ImageEditorView()
 }
 #endif
