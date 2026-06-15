@@ -8,9 +8,9 @@ struct DirectoryBrowserView: View {
     var body: some View {
         VStack(spacing: 0) {
             pathHeader
-            
+
             Divider()
-            
+
             if let errorMessage = viewModel.errorMessage {
                 errorView(errorMessage)
             } else if viewModel.items.isEmpty {
@@ -19,6 +19,7 @@ struct DirectoryBrowserView: View {
                 fileList
             }
         }
+        .frame(maxHeight: .infinity, alignment: .top)
         .background(Color(NSColor.windowBackgroundColor))
     }
     

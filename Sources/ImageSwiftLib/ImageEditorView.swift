@@ -27,9 +27,10 @@ public struct ImageEditorView: View {
                         .font(.caption)
                         .multilineTextAlignment(.center)
                 }
+                Spacer()
             }
             .padding(20)
-            .frame(minWidth: 400, minHeight: 460)
+            .frame(minWidth: 400, minHeight: 460, maxHeight: .infinity, alignment: .top)
         }
         .frame(minWidth: 660, minHeight: 480)
     }
@@ -64,7 +65,7 @@ public struct ImageEditorView: View {
                 }
             }
         }
-        .frame(height: 280)
+        .frame(minHeight: 200, maxHeight: .infinity)
         .onDrop(of: [.fileURL], isTargeted: $isDroppingOver) { providers in
             handleDrop(providers: providers)
         }
